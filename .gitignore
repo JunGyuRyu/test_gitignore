@@ -16,11 +16,11 @@
 # !important.log # 모든 log 파일을 무시하기 위해 선언했으나 ‘important.log’는 무시하지 않음
 
 
-
+### 예외처리할 파일 지정
 # 단일 파일 지정
 secret.log
 
 # 디렉터리 지정
-test/
+test_gitnore/
 
 
