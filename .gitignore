@@ -1,0 +1,26 @@
+# # 단일 파일 지정
+# test.txt # test.txt를 깃허브에 올리지 않도록 무시
+# config.json # config.json을 깃허브에 올리지 않도록 무시
+
+# # 디렉터리 지정
+# assets/ # assets 디렉터리 하위 모든 정보를 무시
+# src/ # src 디렉터리 하위 모든 정보를 무시
+
+# # 와일드카드 사용
+# - .txt # 모든 txt 파일 무시
+# - .log # 모든 log 파일 무시
+
+# # 특정 패턴 제외
+# - .log
+
+# !important.log # 모든 log 파일을 무시하기 위해 선언했으나 ‘important.log’는 무시하지 않음
+
+
+
+# 단일 파일 지정
+secret.log
+
+# 디렉터리 지정
+test/
+
+
